@@ -333,6 +333,8 @@ body {
     position: relative;
     top: 0;
     transition: .5s;
+    height: 285px;
+    width: 100%;
 }
 
 .team-item:hover img {
@@ -569,4 +571,10 @@ body {
 
 .bg-primary {
     background: var(--primary) !important;
+}
+
+@media(max-width:576px) {
+    .team-item img {
+        height: 100%;
+    }
 }
