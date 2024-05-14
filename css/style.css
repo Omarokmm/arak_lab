@@ -172,7 +172,7 @@ body {
     color: black;
 }
 
-.c-whit {
+.c-white {
     color: white;
 }
 
@@ -279,6 +279,7 @@ body {
 
 .service-item {
     transition: .5s;
+    padding: 1.5rem 2rem !important;
 }
 
 .service-item:hover {
@@ -560,6 +561,16 @@ body {
     border-color: 1px solid var(--primary);
 }
 
+.btn-sucess {
+    background-color: #25D366;
+    border-color: 1px solid #25D366;
+}
+
+.btn-sucess i {
+    font-size: 32px;
+    color: #fff;
+}
+
 .btn-primary:hover {
     background-color: var(--dark);
     border-color: 1px solid var(--dark);
@@ -571,6 +582,27 @@ body {
 
 .bg-primary {
     background: var(--primary) !important;
+}
+
+.filter-img-white {
+    filter: brightness(0) invert(1);
+}
+
+.filter-img-white:hover {
+    filter: brightness(0) invert(0);
+    -webkit-filter: brightness(0) invert(0);
+}
+
+.tiktok-svg {
+    width: 16px;
+}
+
+.c-black {
+    color: #000
+}
+
+.w-16 {
+    width: 16px;
 }
 
 @media(max-width:576px) {
