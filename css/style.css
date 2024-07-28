@@ -463,9 +463,13 @@ body {
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background: var(--primary) !important;
+    background: #f5f4f4 !important;
+    width: 50% !important;
+    border-radius: 20px;
 }
-
+.owl-carousel .owl-item img{
+    width: 50% !important;
+}
 .testimonial-carousel .owl-nav {
     position: absolute;
     width: 350px;
@@ -611,6 +615,11 @@ body {
         height: 100%;
     }
     .owl-carousel .owl-item img{
-        height:100%
+        height:100%;
+        width: 100% !important;
+
+    }
+    .testimonial-carousel .owl-item.center .testimonial-item img {
+        width: 100% !important;
     }
 }
