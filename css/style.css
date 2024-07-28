@@ -622,4 +622,8 @@ body {
     .testimonial-carousel .owl-item.center .testimonial-item img {
         width: 100% !important;
     }
+    .testimonial-carousel .owl-nav{
+        top: -60px;
+        opacity: 1;
+    }
 }
