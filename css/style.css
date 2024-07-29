@@ -467,9 +467,9 @@ body {
     width: 50% !important;
     border-radius: 20px;
 }
-.owl-carousel .owl-item img{
+/* .owl-carousel .owl-item img{
     width: 50% !important;
-}
+} */
 .testimonial-carousel .owl-nav {
     position: absolute;
     width: 350px;
@@ -610,15 +610,17 @@ body {
     width: 16px;
 }
 
+.works .owl-carousel .owl-item img{
+        width: 50%;
+}
 @media(max-width:576px) {
     .team-item img {
         height: 100%;
     }
-    .owl-carousel .owl-item img{
-        height:100%;
-        width: 100% !important;
-
-    }
+    .works .owl-carousel .owl-item img{
+        width: 100%;
+        height: 100%;
+}
     .testimonial-carousel .owl-item.center .testimonial-item img {
         width: 100% !important;
     }
