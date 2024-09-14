@@ -462,7 +462,8 @@ body {
     color: var(--light) !important;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-item img {
+.testimonial-carousel .owl-item.center .testimonial-item img,
+.testimonial-carousel .owl-item.center .testimonial-item video {
     background: #f5f4f4 !important;
     width: 50% !important;
     border-radius: 20px;
